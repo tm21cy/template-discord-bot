@@ -5,7 +5,7 @@
 	"scripts": {
 		"build": "rm -rf ./js/* && eslint . --ext .ts --fix && tsc && echo 'Build Successful'",
 		"dev": "ts-node ./src/index.ts",
-		"deploy": "ts-node ./src/deploy-commands"
+		"cmd-deploy": "ts-node ./src/deploy-commands"
 	},
 	"license": "private",
 	"private": true,
